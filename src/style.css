@@ -35,10 +35,6 @@ body {
   display: flex;
 }
 
-.main {
-  height: 75vh;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -48,4 +44,8 @@ li {
   list-style-type: none;
   font-size: 1.4rem;
   padding: 25px 20px;
+}
+
+.main {
+  height: 75vh;
 }
