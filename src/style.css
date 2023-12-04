@@ -16,6 +16,29 @@ body {
   height: inherit;
 }
 
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  height: 25vh;
+}
+
+.restaurant-name {
+  font-size: 3.1rem;
+}
+
+.navbar > ul {
+  display: flex;
+}
+
+.main {
+  height: 75vh;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -23,4 +46,6 @@ ul {
 
 li {
   list-style-type: none;
+  font-size: 1.4rem;
+  padding: 25px 20px;
 }
