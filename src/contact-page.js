@@ -14,7 +14,7 @@ function loadContactPage() {
   const menuLink = document.createElement("li");
   const contactLink = document.createElement("li");
 
-  const info = document.createElement("div");
+  const infoContact = document.createElement("div");
 
   // Set element's text content
   restaurantName.textContent = "Royal's Pizza";
@@ -22,7 +22,7 @@ function loadContactPage() {
   menuLink.textContent = "Menu";
   contactLink.textContent = "Contact";
 
-  info.textContent = "Contact";
+  infoContact.textContent = "Contact";
 
   copyrightOne.innerHTML = "Chef image by<a href='https://wequassett.com/experience/supper-club-wequassett/'>WEQUASSETT</a>";
   copyrightTwo.innerHTML = "Background image by<a href='https://www.freepik.com/free-photo/baking-delicious-pizza-with-wood-fired-oven_37516237.htm#query=pizza%20in%20oven&position=0&from_view=search&track=ais&uuid=7f0fb8c3-ac0c-4ab3-a395-03ef925ee354'>Freepik</a>";
@@ -33,7 +33,7 @@ function loadContactPage() {
   navbar.classList.add("navbar");
 
   main.classList.add("main");
-  info.classList.add("info");
+  infoContact.classList.add("info-contact");
 
   footer.classList.add("footer");
   copyrightOne.classList.add("copyright");
@@ -44,7 +44,7 @@ function loadContactPage() {
   navbar.append(navbarList);
   header.append(restaurantName, navbar);
 
-  main.append(info);
+  main.append(infoContact);
 
   footer.append(copyrightOne, copyrightTwo);
 
