@@ -1,8 +1,6 @@
 @font-face {
   font-family: "FancyFont";
   src: url(./fonts/fancy-font.woff2);
-  font-weight: 600;
-  font-style: normal;
 }
 
 @font-face {
@@ -10,8 +8,6 @@
   src: 
     url(./fonts/roboto.woff2),
     url(./fonts/roboto-bold.woff2);
-  font-weight: 600;
-  font-style: normal;
 }
 
 html {
