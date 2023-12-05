@@ -1,9 +1,9 @@
-import Salsiccia from "./salsiccia.png";
-import Gamberi from "./gamberi.png";
-import Pepe from "./pepe.png";
-import Disgustoso from "./disgustoso.png";
-import Colorato from "./colorato.png";
-import Pomodoro from "./pomodoro.png";
+import Salsiccia from "./images/salsiccia.png";
+import Gamberi from "./images/gamberi.png";
+import Pepe from "./images/pepe.png";
+import Disgustoso from "./images/disgustoso.png";
+import Colorato from "./images/colorato.png";
+import Pomodoro from "./images/pomodoro.png";
 
 function loadMenuPage() {
   const main = document.querySelector(".main");

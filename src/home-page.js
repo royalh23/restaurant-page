@@ -1,4 +1,4 @@
-import Chef from "./chef.png";
+import Chef from "./images/chef.png";
 
 function loadHomePage() {
   // Create Elements

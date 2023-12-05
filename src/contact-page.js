@@ -1,8 +1,8 @@
-import Map from "./restaurant-location.png";
+import Map from "./images/restaurant-location.png";
 
 function loadContactPage() {
   const main = document.querySelector(".main");
-  
+
   // Create Elements
   const infoContact = document.createElement("div");
   const phoneNumber = document.createElement("div");
