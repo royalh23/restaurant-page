@@ -2,6 +2,7 @@ import Map from "./images/restaurant-location.png";
 
 function loadContactPage() {
   const main = document.querySelector(".main");
+  const contactLink = document.querySelector(".contact");
 
   // Create Elements
   const infoContact = document.createElement("div");
@@ -16,6 +17,7 @@ function loadContactPage() {
   location.textContent = "🏠 Sulh street 21, Baku, Azerbaijan";
 
   // Add required classes to elements
+  contactLink.classList.add("selected");
   infoContact.classList.add("info-contact");
 
   // Append elements accordingly

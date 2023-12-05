@@ -7,6 +7,7 @@ import Pomodoro from "./images/pomodoro.png";
 
 function loadMenuPage() {
   const main = document.querySelector(".main");
+  const menuLink = document.querySelector(".menu");
 
   // Create Elements
   const infoMenu = document.createElement("div");
@@ -65,6 +66,7 @@ function loadMenuPage() {
   pomodoroIngredients.textContent = "Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli";
 
   // Add required classes to elements
+  menuLink.classList.add("selected");
   infoMenu.classList.add("info-menu");
   salsiccia.classList.add("pizza");
   gamberi.classList.add("pizza");

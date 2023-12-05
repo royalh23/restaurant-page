@@ -41,6 +41,10 @@ function loadHomePage() {
   header.classList.add("header");
   restaurantName.classList.add("restaurant-name");
   navbar.classList.add("navbar");
+  homeLink.classList.add("home");
+  homeLink.classList.add("selected");
+  menuLink.classList.add("menu");
+  contactLink.classList.add("contact");
 
   main.classList.add("main");
   infoHome.classList.add("info-home");
