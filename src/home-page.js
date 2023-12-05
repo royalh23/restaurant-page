@@ -16,7 +16,7 @@ function loadHomePage() {
   const menuLink = document.createElement("li");
   const contactLink = document.createElement("li");
 
-  const info = document.createElement("div");
+  const infoHome = document.createElement("div");
   const infoOne = document.createElement("div");
   const infoTwo = document.createElement("div");
   const chefImg = new Image();
@@ -43,7 +43,7 @@ function loadHomePage() {
   navbar.classList.add("navbar");
 
   main.classList.add("main");
-  info.classList.add("info");
+  infoHome.classList.add("info-home");
   chefImg.classList.add("chef-img");
 
   footer.classList.add("footer");
@@ -55,8 +55,8 @@ function loadHomePage() {
   navbar.append(navbarList);
   header.append(restaurantName, navbar);
 
-  info.append(infoOne, infoTwo, chefImg, infoThree);
-  main.append(info);
+  infoHome.append(infoOne, infoTwo, chefImg, infoThree);
+  main.append(infoHome);
 
   footer.append(copyrightOne, copyrightTwo);
 
