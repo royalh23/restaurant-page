@@ -50,7 +50,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 70vh;
 }
 
 .info {
@@ -63,4 +63,9 @@ li {
   font-size: 1.3rem;
   padding: 50px 100px;
   width: 550px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 5vh;
 }
