@@ -6,6 +6,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devtool: "inline-source-map",
   module: {
     rules: [
       {
@@ -14,7 +15,7 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        use: "asset/resource",
+        type: "asset/resource",
       },
     ], 
   },

@@ -1,2 +1,4 @@
-import loadHomePage from "./home-page";
 import "./style.css";
+import loadHomePage from "./home-page";
+
+loadHomePage();

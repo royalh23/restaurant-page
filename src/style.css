@@ -10,6 +10,10 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background-image: url(./oven-pizza.jpg);
+  background-size: cover;  
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
 }
 
 #content {
@@ -18,18 +22,21 @@ body {
   height: inherit;
 }
 
+.header, .info, .footer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .header {
-  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
+  padding: 25px 0;
 }
 
 .restaurant-name {
-  margin-top: 25px;
   font-size: 3.1rem;
 }
 
@@ -44,15 +51,15 @@ ul {
 
 li {
   list-style-type: none;
-  font-size: 1.4rem;
-  padding: 25px 20px;
+  font-size: 1.6rem;
+  padding: 20px 20px;
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 680px;
   flex: 1 0 auto;
 }
 
@@ -61,18 +68,39 @@ li {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 50px 100px;
-  width: 550px;
+  width: 650px;
+}
+
+.chef-img {
+  width: 300px;
+  height: 300px;
+  clip-path: circle();
 }
 
 .footer {
   display: flex;
   justify-content: center;
+  gap: 100px;
   font-size: 1.2rem;
-  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 10px 0;
+}
+
+.copyright {
+  display: flex;
+  gap: 5px;
+}
+
+a, a:visited {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
