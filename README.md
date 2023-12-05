@@ -5,3 +5,5 @@ home, menu, and contact. Various front-end skills have been practiced in this pr
 - ES6 modules have been utilized to achieve more organized code;
 - Various packages have been installed and implemented using npm;
 - All DOM elements are created dynamically using JavaScript thanks to webpack.
+
+The project is live at: https://royalh23.github.io/restaurant-page/
