@@ -9,6 +9,7 @@ function addEventListeners() {
 
 function loadPage(e) {
   const content = document.getElementById("content");
+  const main = document.querySelector(".main");
 
   switch (e.target.textContent) {
     case "Home":
@@ -17,12 +18,12 @@ function loadPage(e) {
       addEventListeners();
       break;
     case "Menu":
-      content.textContent = "";
+      main.textContent = "";
       loadMenuPage();
       addEventListeners();
       break;
     case "Contact":
-      content.textContent = "";
+      main.textContent = "";
       loadContactPage();
       addEventListeners();
       break;
