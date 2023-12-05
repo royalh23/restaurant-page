@@ -1,3 +1,5 @@
+import Map from "./restaurant-location.png";
+
 function loadContactPage() {
   // Create Elements
   const content = document.getElementById("content");
@@ -15,6 +17,11 @@ function loadContactPage() {
   const contactLink = document.createElement("li");
 
   const infoContact = document.createElement("div");
+  const phoneNumber = document.createElement("div");
+  const location = document.createElement("div");
+  const map = new Image();
+  map.src = Map;
+  map.alt = "Restaurant location on map";
 
   // Set element's text content
   restaurantName.textContent = "Royal's Pizza";
@@ -22,7 +29,8 @@ function loadContactPage() {
   menuLink.textContent = "Menu";
   contactLink.textContent = "Contact";
 
-  infoContact.textContent = "Contact";
+  phoneNumber.textContent = "📞 +994-50-123-45-67";
+  location.textContent = "🏠 Sulh street 21, Baku, Azerbaijan";
 
   copyrightOne.innerHTML = "Chef image by<a href='https://wequassett.com/experience/supper-club-wequassett/'>WEQUASSETT</a>";
   copyrightTwo.innerHTML = "Background image by<a href='https://www.freepik.com/free-photo/baking-delicious-pizza-with-wood-fired-oven_37516237.htm#query=pizza%20in%20oven&position=0&from_view=search&track=ais&uuid=7f0fb8c3-ac0c-4ab3-a395-03ef925ee354'>Freepik</a>";
@@ -44,6 +52,7 @@ function loadContactPage() {
   navbar.append(navbarList);
   header.append(restaurantName, navbar);
 
+  infoContact.append(phoneNumber, location, map);
   main.append(infoContact);
 
   footer.append(copyrightOne, copyrightTwo);
