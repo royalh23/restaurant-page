@@ -1,9 +1,9 @@
 import "./style.css";
 import loadPage from "./load-page";
-import loadHomePage from "./home-page";
+import loadWebsite from "./website";
 
 (() => {
-  loadHomePage();
+  loadWebsite();
 
   const navLinks = document.querySelectorAll(".navbar li");
   navLinks.forEach(link => link.addEventListener("click", loadPage));

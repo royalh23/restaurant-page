@@ -16,7 +16,7 @@ function loadPage(e) {
 
   switch (e.target.textContent) {
     case "Home":
-      content.textContent = "";
+      main.textContent = "";
       menuLink.classList.remove("selected");
       contactLink.classList.remove("selected");
       loadHomePage();
