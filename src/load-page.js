@@ -8,7 +8,6 @@ function addEventListeners() {
 }
 
 function loadPage(e) {
-  const content = document.getElementById("content");
   const main = document.querySelector(".main");
   const homeLink = document.querySelector(".home");
   const menuLink = document.querySelector(".menu");
